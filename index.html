@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Core Marketing Services | Elite Marketing Agency</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/fevicons/favicon.ico" />
+
+    <link rel="icon" type="image/png" sizes="16x16" href="/fevicons/favicon-16x16.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/fevicons/favicon-32x32.png" />
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/fevicons/apple-touch-icon.png" />
+
+    <!-- Android Chrome -->
+    <link rel="icon" type="image/png" sizes="192x192" href="/fevicons/android-chrome-192x192.png" />
+    <link rel="icon" type="image/png" sizes="512x512" href="/fevicons/android-chrome-512x512.png" />
+
+    <!-- Web App Manifest -->
+    <link rel="manifest" href="/fevicons/site.webmanifest" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --primary-blue: #003399;
+        --dark-navy: #001a4d;
+        --sky-blue: #00AEEF;
+        --accent-red: #ED1C24;
+      }
+      body {
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+        background-color: #ffffff;
+      }
+      .serif {
+        font-family: 'Playfair Display', serif;
+      }
+      .glass {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+      }
+      .elite-banner-bg {
+        background: linear-gradient(135deg, #001a4d 0%, #003399 100%);
+        position: relative;
+        overflow: hidden;
+      }
+      .elite-halftone {
+        background-image: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+        background-size: 20px 20px;
+        mask-image: linear-gradient(to right, rgba(0,0,0,1) 0%, rgba(0,0,0,0.2) 100%);
+      }
+      .elite-chevron {
+        position: absolute;
+        left: -10%;
+        top: 0;
+        bottom: 0;
+        width: 40%;
+        background: var(--accent-red);
+        clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+        box-shadow: 20px 0 50px rgba(0,0,0,0.3);
+        opacity: 0.95;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: var(--primary-blue);
+        border-radius: 10px;
+      }
+      @keyframes pulse-red {
+        0%, 100% { box-shadow: 0 0 0 0 rgba(237, 28, 36, 0.4); }
+        50% { box-shadow: 0 0 0 15px rgba(237, 28, 36, 0); }
+      }
+      .pulse-red {
+        animation: pulse-red 2s infinite;
+      }
+      .ease-expo {
+        transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+      }
+    </style>
+    <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@19.0.0",
+    "react-dom": "https://esm.sh/react-dom@19.0.0",
+    "react-dom/client": "https://esm.sh/react-dom@19.0.0/client",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.28.1?external=react,react-dom",
+    "framer-motion": "https://esm.sh/framer-motion@11.15.0?external=react,react-dom",
+    "lucide-react": "https://esm.sh/lucide-react@0.468.0?external=react,react-dom",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/",
+    "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2",
+    "vite": "https://esm.sh/vite@^7.3.1",
+    "path": "https://esm.sh/path@^0.12.7"
+  }
+}
+</script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.jsx"></script>
+</body>
+</html>
