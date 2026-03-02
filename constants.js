@@ -2,7 +2,7 @@ import { i } from "framer-motion/client";
 import gallery1 from "./assets/galler1.jpg";
 import gallery2 from "./assets/galler2.jpg";
 import gallery3 from "./assets/galler3.jpg";
-import gallery4 from "./assets/galler4.jpg";
+import gallery4 from "./assets/gallery4.jpg";
 import gallery5 from "./assets/galler5.jpg";
 import gallery6 from "./assets/galler6.jpg";
 import gallery7 from "./assets/galler7.jpg";
@@ -23,10 +23,31 @@ import gallery21 from "./assets/galler21.jpg";
 import gallery22 from "./assets/galler22.jpg";
 import gallery23 from "./assets/galler23.jpg";
 import gallery24 from "./assets/galler24.jpg";
+//import gallery25 from "./assets/galler25.jpg";
+import gallery26 from "./assets/galler26.jpg";
+import gallery27 from "./assets/galler27.jpg";
+import gallery28 from "./assets/galler28.jpg";
+import galler29 from "./assets/galler29.jpg";
+import gallery30 from "./assets/galler30.jpg";
+import gallery31 from "./assets/galler31.jpg";
+import gallery32 from "./assets/galler32.jpg";
+import gallery33 from "./assets/galler33.jpg";
+import gallery34 from "./assets/galler34.jpg";
+import gallery35 from "./assets/galler35.jpg";
+//import gallery36 from "./assets/galler36.jpg";
+// import gallery37 from "./assets/galler37.jpg";
+// import gallery38 from "./assets/galler38.jpg";
+//import gallery39 from "./assets/gallery39.jpg"
+
+
+
 import ProductLaunch from "./assets/ProductLaunch.png";
 import ContactData from "./assets/Contact.png";
 import socialMediaMarketing from "./assets/social-media.jpg";
 
+import vanCampaign from "./assets/van-campaign.png";
+import retailers from "./assets/hero-img.png";
+import mechanicMeet from "./assets/mechanic-meet.png";
 
 
 
@@ -61,37 +82,37 @@ export const SERVICES = [
     title: "Spot Campaigns",
     description: "On-ground localized activation campaigns designed for immediate visibility and impact.",
     icon: "MapPin",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&q=80&w=800",
+    image: gallery9,
   },
   {
     title: "Van Campaigns",
     description: "Mobile marketing units that take your brand message directly to your target geography.",
     icon: "Truck",
-    image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80&w=800",
+    image: vanCampaign,
   },
   {
     title: "Mechanic Meets",
     description: "Specialized B2B community engagement programs for automotive and industrial sectors.",
     icon: "Settings",
-    image: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&q=80&w=800",
+    image: mechanicMeet,
   },
   {
     title: "Retailer Meet",
     description: "Strategic networking events to build strong relationships with your distribution channel.",
     icon: "Users",
-    image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&q=80&w=800",
+    image: retailers,
   },
   {
     title: "Event & Exhibitions",
     description: "Comprehensive marketing coverage and stall management for industry-leading events.",
     icon: "Megaphone",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80&w=800",
+    image: gallery10,
   },
   {
     title: "Product Launches",
     description: "End-to-end strategy and execution for introducing new products to the market.",
     icon: "Zap",
-    image: ProductLaunch,
+    image:galler29,
   },
   {
     title: "Customer Data & Directory",
@@ -285,7 +306,7 @@ export const GALLERY_ITEMS = [
   { id: 5, title: "Van Campaign in Action", category: "Van Campaigns", image: gallery5 },
   { id: 6, title: "Brand Awareness Drive", category: "Campaigns", image: gallery6 },
   { id: 7, title: "Dealer Conference", category: "Dealer Meets", image: gallery7 },
-  { id: 8, title: "Corporate Expo Booth", category: "Exhibitions", image: gallery8 },
+  //{ id: 8, title: "Corporate Expo Booth", category: "Exhibitions", image: gallery8 },
   { id: 9, title: "Roadshow Activation", category: "Roadshows", image: gallery9 },
   { id: 10, title: "Product Demo Day", category: "Demonstrations", image: gallery10 },
   { id: 11, title: "Retail Branding", category: "Branding", image: gallery11 },
@@ -302,6 +323,21 @@ export const GALLERY_ITEMS = [
   { id: 22, title: "Pop-up Store", category: "Retail Activations", image: gallery22 },
   { id: 23, title: "Festival Promotion", category: "Seasonal Campaigns", image: gallery23 },
   { id: 24, title: "Mega Brand Launch", category: "Major Events", image: gallery24 },
+  //{ id: 25, title: "B2B Networking Dinner", category: "Networking", image: gallery25 },
+  { id: 26, title: "Rural Marketing Drive", category: "Rural Marketing", image: gallery26 },
+  { id: 27, title: "Employee Engagement Day", category: "HR Events", image: gallery27 },
+  { id: 28, title: "Annual General Meeting", category: "Corporate", image: gallery28 },
+  { id: 29, title: "Product Sampling Booth", category: "Sampling", image: galler29 },
+  { id: 30, title: "Mobile App Launch", category: "Digital Marketing", image: gallery30 },
+  { id: 31, title: "Sports Sponsorship Event", category: "Sponsorship", image: gallery31 },
+  { id: 32, title: "Charity Auction Night", category: "Fundraising", image: gallery32 },
+  { id: 33, title: "Virtual Reality Experience", category: "Innovation", image: gallery33 },
+  { id: 34, title: "Fashion Show Branding", category: "Fashion", image: gallery34 },
+  { id: 35, title: "Health & Wellness Workshop", category: "Wellness", image: gallery35 },
+  // { id: 36, title: "Educational Seminar", category: "Education", image: gallery36 },
+  // { id: 37, title: "Government Liaison Meet", category: "Public Relations", image: gallery37 },
+  // { id: 38, title: "Warehouse Inauguration", category: "Infrastructure", image: gallery38 },
+  //{ id: 39, title: "Warehouse Inauguration", category: "Infrastructure", image: gallery39 },
 ];
 
 

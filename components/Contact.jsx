@@ -129,15 +129,7 @@ export const Contact = () => {
             </div>
 
             {/* Decorative Map Pin Animation */}
-            <div className="absolute bottom-10 right-10 hidden xl:block">
-              <motion.div 
-                animate={{ y: [0, -10, 0] }}
-                transition={{ duration: 3, repeat: Infinity }}
-                className="w-16 h-16 bg-white rounded-full shadow-2xl flex items-center justify-center text-[#ED1C24] border border-gray-100"
-              >
-                <MapPin size={32} />
-              </motion.div>
-            </div>
+            
           </div>
         </div>
       </div>

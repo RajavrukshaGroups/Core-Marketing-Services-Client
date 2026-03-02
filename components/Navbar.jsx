@@ -19,7 +19,7 @@ const Navbar = () => {
   }, []);
 
   const navLinks = [
-    { name: 'Strategy', path: '/' },
+    { name: 'Home', path: '/' },
     { name: 'Legacy', path: '/about' },
     { name: 'Elite Suite', path: '/services' },
     { name: 'Directory', path: '/directory' },
@@ -60,9 +60,9 @@ const Navbar = () => {
                  className="w-full h-full object-contain"
                />
             </div>
-            <div>
-              <span className="text-[#003399] font-black text-2xl tracking-tighter leading-none block">CMS</span>
-              <span className="text-[8px] text-blue-600 uppercase tracking-[0.2em] font-black leading-none"><span className="text-[#ED1C24] text-[10px]">C</span>ore <span className="text-[#ED1C24] text-[10px]">M</span>arketing <span className="text-[#ED1C24] text-[10px]">S</span>ervices</span>
+            <div className="hidden xl:block">
+              <span className="text-[#003399] font-black text-2xl sm:text-xl tracking-tighter leading-none block">CMS</span>
+              <span className="text-[8px] text-blue-600 uppercase tracking-[0.2em] font-black leading-none"><span className="text-[#ED1C24] text-[10px] sm:text-[8px]">C</span>ore <span className="text-[#ED1C24] text-[10px] sm:text-[8px]">M</span>arketing <span className="text-[#ED1C24] text-[10px] sm:text-[8px]">S</span>ervices</span>
             </div>
           </Link>
 
