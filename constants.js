@@ -34,10 +34,10 @@ import gallery32 from "./assets/galler32.jpg";
 import gallery33 from "./assets/galler33.jpg";
 import gallery34 from "./assets/galler34.jpg";
 import gallery35 from "./assets/galler35.jpg";
-//import gallery36 from "./assets/galler36.jpg";
-// import gallery37 from "./assets/galler37.jpg";
-// import gallery38 from "./assets/galler38.jpg";
-//import gallery39 from "./assets/gallery39.jpg"
+import gallery36 from "./assets/galler36.jpeg";
+import gallery37 from "./assets/galler37.jpeg";
+import gallery38 from "./assets/galler38.jpeg";
+import gallery39 from "./assets/galler39.jpeg"
 
 
 
@@ -100,7 +100,7 @@ export const SERVICES = [
     title: "Retailer Meet",
     description: "Strategic networking events to build strong relationships with your distribution channel.",
     icon: "Users",
-    image: retailers,
+    image: gallery39,
   },
   {
     title: "Event & Exhibitions",
@@ -334,10 +334,10 @@ export const GALLERY_ITEMS = [
   { id: 33, title: "Virtual Reality Experience", category: "Innovation", image: gallery33 },
   { id: 34, title: "Fashion Show Branding", category: "Fashion", image: gallery34 },
   { id: 35, title: "Health & Wellness Workshop", category: "Wellness", image: gallery35 },
-  // { id: 36, title: "Educational Seminar", category: "Education", image: gallery36 },
-  // { id: 37, title: "Government Liaison Meet", category: "Public Relations", image: gallery37 },
-  // { id: 38, title: "Warehouse Inauguration", category: "Infrastructure", image: gallery38 },
-  //{ id: 39, title: "Warehouse Inauguration", category: "Infrastructure", image: gallery39 },
+  { id: 36, title: "Educational Seminar", category: "Education", image: gallery36 },
+  { id: 37, title: "Government Liaison Meet", category: "Public Relations", image: gallery37 },
+  { id: 38, title: "Warehouse Inauguration", category: "Infrastructure", image: gallery38 },
+  { id: 39, title: "Warehouse Inauguration", category: "Infrastructure", image: gallery39 },
 ];
 
 

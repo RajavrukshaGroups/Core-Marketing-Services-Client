@@ -62,7 +62,8 @@ const Navbar = () => {
             </div>
             <div className="hidden xl:block">
               <span className="text-[#003399] font-black text-2xl sm:text-xl tracking-tighter leading-none block">CMS</span>
-              <span className="text-[8px] text-blue-600 uppercase tracking-[0.2em] font-black leading-none"><span className="text-[#ED1C24] text-[10px] sm:text-[8px]">C</span>ore <span className="text-[#ED1C24] text-[10px] sm:text-[8px]">M</span>arketing <span className="text-[#ED1C24] text-[10px] sm:text-[8px]">S</span>ervices</span>
+              <span className="text-[8px] text-blue-600 uppercase tracking-[0.2em] font-black leading-none">
+                <span className="text-[#ED1C24] text-[12px] ">C</span>ore <span className="text-[#ED1C24] text-[12px] ">M</span>arketing <span className="text-[#ED1C24] text-[12px]">S</span>ervices</span>
             </div>
           </Link>
 
